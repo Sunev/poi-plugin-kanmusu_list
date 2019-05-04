@@ -112,7 +112,7 @@ export const reactClass = connect(
         render() {
         const { kanmusu_list, toGenerateKanmusuList } = this.props
         return (
-            <div>
+            <div class='kanmusu_list'>
                 <link rel="stylesheet" href={pathJoin(__dirname, "assets", "kanmusu_list.css")}></link>
                 <textarea value={kanmusu_list} id="kanmusu_list_textarea"></textarea>
                 <Button onClick={toGenerateKanmusuList}>生成舰娘列表</Button>
