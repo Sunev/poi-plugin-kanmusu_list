@@ -1,0 +1,9 @@
+#kanmusu_list_textarea {
+    width: 100%;
+    height: 95px;
+    resize: none;
+}
+
+button {
+    margin: 2.5px;
+}

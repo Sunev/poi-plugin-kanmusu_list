@@ -1,0 +1,19 @@
+{
+    "name": "poi-plugin-kanmusu_list",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.es",
+    "scripts": {
+        "test": "node index.es"
+    },
+    "author": {
+        "name": "Sunev",
+        "url": "https://github.com/Sunev"
+    },
+    "license": "MIT",
+    "poiPlugin": {
+        "title": "舰娘育成列表",
+        "description": "按照[艦隊晒しページ（仮）](http://kancolle-calc.net/kanmusu_list.html)格式导出舰娘等级信息",
+        "priority": 100
+    }
+}
