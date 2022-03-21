@@ -131,7 +131,7 @@ export const reactClass = connect(
                     <Button onClick={toGenerateKanmusuList}>生成舰娘列表</Button>
                     <Button onClick={setClipBoard}>复制到剪贴板</Button>
                     <Button>
-                        <a href="http://kancolle-calc.net/kanmusu_list.html">艦隊晒しページ（仮）</a>
+                        打开<a href="http://kancolle-calc.net/kanmusu_list.html" target="_blank">艦隊晒しページ（仮）</a>页面
                     </Button>
                 </div>
             )
