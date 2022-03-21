@@ -3,6 +3,7 @@
     "version": "1.0.2",
     "description": "按照[艦隊晒しページ（仮）](http://kancolle-calc.net/kanmusu_list.html)格式导出舰娘等级信息",
     "main": "index.es",
+    "keywords": ["kancolle", "poi"],
     "scripts": {
         "test": "node index.es"
     },
